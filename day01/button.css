@@ -1,0 +1,41 @@
+.kakao {
+  background-color: #fee500;
+  border: none;
+  border-radius: 5px;
+  padding-block: 10px;
+  padding-inline: 8px;
+}
+
+.naver {
+  background-color: #09aa5c;
+  border: none;
+  border-radius: 5px;
+  padding-block: 13px;
+  padding-inline: 170px;
+  color: white;
+  font-weight: bold;
+}
+.brand {
+  background-color: white;
+  border-style: none;
+  padding-right: 200px;
+  font-size: 17px;
+}
+.new {
+  background-color: #e9eefe;
+  color: #245eff;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-block: 2px;
+  padding-inline: 2px;
+}
+
+.app {
+  background-color: #fff2ec;
+  color: #e84500;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 4px;
+  padding-inline: 10px;
+  padding-block: 5px;
+}
