@@ -1,0 +1,20 @@
+.review {
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding-inline: 250px;
+  padding-block: 12px;
+}
+.review2 {
+  background-color: gainsboro;
+  border: none;
+  margin-left: 50px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-style: unset;
+  color: gray;
+  padding-inline: 200px;
+  padding-block: 15px;
+  font-weight: bold;
+}

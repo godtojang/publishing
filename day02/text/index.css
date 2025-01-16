@@ -1,0 +1,47 @@
+.logo {
+  color: skyblue;
+  text-align: center;
+  letter-spacing: 2px; /*글자 띄어쓰기 */
+  font-size: 16px;
+  margin-top: 200px;
+  /* word-spacing: 10px; 단어 띄어쓰기 */
+  /* text-transform: uppercase; */
+  /* text-decoration: line-through; */
+}
+.title {
+  text-align: center;
+  word-spacing: 0px;
+  font-size: 40px;
+}
+.logo3 {
+  text-align: center;
+  word-spacing: 0px;
+  font-size: 14px;
+  color: #efefef;
+}
+.buttons {
+  text-align: center;
+}
+.button1 {
+  border: 1px solid #bbbbbb;
+  line-height: 25px;
+  border-radius: 8px;
+  background-color: white;
+  padding-inline: 50px;
+  padding-block: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.button2 {
+  border: 1px solid black;
+  line-height: 25px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  padding-inline: 50px;
+  padding-block: 15px;
+  font-size: 15px;
+  text-align: left;
+}
