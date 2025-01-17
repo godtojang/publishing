@@ -1,0 +1,35 @@
+.back {
+  display: inline-block;
+  border: 1px solid black;
+  width: 450px;
+  height: 600px;
+  border-radius: 20px;
+  background-image: url("https://pixabay.com/get/g916a97b698fe16cb8f3366600c9b5cc24d820fcbfc5d804114fde4fec7e6da1bc2a8ea92b500ebbf4ad80cd42cda50bf_640.jpg");
+  background-size: contain;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.back > button {
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid coral;
+  color: coral;
+  font-weight: 700;
+}
+
+.back > h2 {
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.back > span {
+  color: gray;
+}
+
+.back > span > i {
+  color: white;
+}

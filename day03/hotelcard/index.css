@@ -1,0 +1,63 @@
+.busan {
+  display: inline-block;
+  border: 1px solid black;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("https://pixabay.com/get/g2943e67f8d6989c8abffff762d4e19381e4913b80a75ff8ccc517d75f059937aec57d28cb2fa1a9a45e2dc06cb983fc58d6989b8423efa011e3eb6a10fe65f18_640.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
+.fri {
+  text-decoration: underline;
+  color: #e3dfe6;
+  text-underline-offset: 5px;
+}
+
+.coupon {
+  font-size: 26px;
+  word-spacing: 1px;
+  font-weight: 500;
+  margin: 1;
+}
+
+.ssale {
+  color: #e3dfe6;
+}
+
+.gangneoung {
+  display: inline-block;
+  border: 1px solid black;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("https://pixabay.com/get/ga76e59a55089f3b0f62c8cdab732624024f8c5150c6b9f2b2143bdfd4a1d5166a04d196e784e8ce8ba68af4f40281232_640.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
+
+.grade5 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("https://pixabay.com/get/ge32c46ef2ec590acf855db2f064bd9b80d92d0657178b56958bb679675d0b567ae8a34c1aeaf7a7f430e5aca726587b281c431c9f2a5814cfee7a6b3267d52c0_640.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
+
+.amare {
+  display: inline-block;
+  border: 1px solid black;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("https://pixabay.com/get/g0ad8d79cb8e135742d8da2566c577f2648e5736c56bc8a25472970255397442e4c20662e4a8017b32f1e18edf9d361f25dbf4855a1edd7a0850683d209976226_640.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
