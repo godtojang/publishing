@@ -1,0 +1,18 @@
+.container {
+  width: 600px;
+  height: 800px;
+  border: 1px solid orange;
+
+  /* 자식들을 행 또는 열로 한 줄로 세우기 */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: paleturquoise;
+  border: 1px solid black;
+}

@@ -1,0 +1,76 @@
+.card {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.shop {
+  width: 100%;
+  height: 70%;
+}
+
+.shop > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card > .pack {
+  width: 50px;
+  height: 50px;
+  border-radius: 10000px;
+  position: absolute;
+  bottom: 160px;
+  right: 10px;
+  padding: 5px;
+  background-color: red;
+  opacity: 0.5;
+  font-size: 30px;
+  text-align: center;
+}
+
+.info {
+  width: 100%;
+  height: 30%;
+  padding-top: 15px;
+  margin-left: 5px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.name::after {
+  content: " ";
+  width: 1px;
+  height: 18px;
+  background-color: #c5c8ce;
+  position: absolute;
+  left: 50px;
+}
+
+.name1 {
+  font-size: 16px;
+  color: darkgray;
+  font-weight: bold;
+}
+
+.score {
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.score > i {
+  color: red;
+}

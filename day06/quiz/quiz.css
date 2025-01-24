@@ -1,0 +1,40 @@
+.box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info::before {
+  position: absolute;
+  left: 230px;
+  content: " ";
+  width: 2px;
+  height: 25px;
+  background-color: yellowgreen;
+  transform: rotate(30deg);
+  transition: all 0.5s;
+}
+
+.info::after {
+  position: absolute;
+  right: 230px;
+  content: " ";
+  width: 2px;
+  height: 25px;
+  transform: rotate(-30deg);
+  background-color: yellowgreen;
+  transition: all 0.5s;
+}
+
+.info:hover::after {
+  transform: rotate(0deg);
+}
+
+.info:hover::before {
+  transform: rotate(0deg);
+}

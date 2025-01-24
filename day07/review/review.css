@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "GowunBatang-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GowunBatang-Regular";
+}
+
+.box {
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  background-color: #efefef;
+  /* font-family: "Nanum Brush Script", serif; */
+}
+
+.ediya {
+  width: 100%;
+  height: 70%;
+  margin-top: 50px;
+  transition: all 0.3s;
+}
+
+.ediya:hover {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.ediya > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.info {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.name {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.present {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
