@@ -1,0 +1,13 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* 자식을 가로든 세로든 한 줄로 remem */
+  justify-content: space-between;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.container > .box {
+  width: 100px;
+  height: 100px;
+  border: solid 1px red;
+}

@@ -1,0 +1,56 @@
+header {
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+}
+
+nav {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 15px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav > ul > li {
+  font-weight: bold;
+  background-color: white;
+  padding: 14px 16px;
+}
+
+nav > .hamburger {
+  display: none;
+}
+
+.na {
+  color: #ff5160;
+}
+
+li:hover {
+  border-radius: 30px;
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    max-width: 400px;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  nav > .hamburger {
+    display: block;
+  }
+}

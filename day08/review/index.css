@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    184deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(145, 53, 23, 1) 68%,
+    rgba(103, 69, 56, 1) 100%,
+    rgba(144, 190, 56, 1) 100%,
+    rgba(26, 0, 180, 1) 100%
+  );
+}
+
+.album {
+  width: 100px;
+  height: 100px;
+}
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10000px;
+}
+
+.name {
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.motto {
+  margin-top: 10px;
+  color: white;
+}
+
+.menu {
+  border-radius: 30px;
+  width: 80%;
+  margin-top: 15px;
+  padding: 15px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 30px;
+}

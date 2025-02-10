@@ -1,0 +1,36 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MDJfMjgg%2FMDAxNjYyMDg1NDkyNzM1.IFrIX2X1LOL4zzqSnJRe1q6YGVjuRs_T-vzQ3M0aftEg.n09oB_Q1kpxBIHrQ4fs9mgwcqj_MY7iwycPWjhfufPEg.JPEG.syn77%2FIMG_0712.jpg&type=a340");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero > .q {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1040px;
+}
+
+.hero > .q > h2 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    background-position: center;
+  }
+
+  .hero > .contents {
+    max-width: 400px;
+  }
+
+  .hero > .q > h2 {
+    font-size: 28px;
+  }
+}

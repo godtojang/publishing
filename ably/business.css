@@ -1,0 +1,101 @@
+.business > .contents {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.business > .contents > .new {
+  color: #757575;
+}
+
+.business > .contents > .hist {
+  padding-top: 30px;
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.business > .contents > article {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+
+.business > .contents > article > .card {
+  width: 100%;
+}
+
+.business > .contents > article > .card > .moAlbum {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.business > .contents > article > .card > .moAlbum > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.business > .contents > article > .card > .moAlbum > img:hover {
+  transform: scale(1.03);
+}
+.business > .contents > article > .card > p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.business > .contents > article > .card > span {
+  font-size: 16px;
+  color: #757575;
+}
+
+.business > .contents > div {
+  text-align: center;
+}
+
+.business > .contents > div > a {
+  margin-top: 80px;
+  width: fit-content;
+  border-radius: 10px;
+  color: #ff5160;
+  background-color: #fff2ea;
+  padding: 10px 80px;
+  font-weight: bold;
+}
+
+.business > .contents > div > a:hover {
+  background-color: #ffe5dc;
+}
+
+@media screen and (max-width: 500px) {
+  .business > .contents {
+    max-width: 400px;
+  }
+
+  .business > .contents > .hist {
+    font-size: 26px;
+  }
+
+  .business > .contents > article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .business > .contents > article > .card > p {
+    font-size: 18px;
+  }
+
+  .business > .contents > article > .card > span {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,33 @@
+.motto {
+  width: 100vw;
+  height: 30vh;
+}
+
+.motto > .info {
+  width: 100%;
+  padding: 30px 0;
+  margin: 0 auto;
+  max-width: 1040px;
+  font-size: 20px;
+  color: dimgray;
+  text-align: center;
+}
+
+.motto > .info > .one {
+  padding-bottom: 10px;
+}
+
+.motto > .info > strong {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .motto > .info {
+    max-width: 400px;
+  }
+
+  .motto > .info > h3 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}

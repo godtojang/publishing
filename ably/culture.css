@@ -1,0 +1,114 @@
+.culture > .contents {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.culture > .contents > article {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.culture > .contents > article > .card2 {
+  width: 100%;
+}
+
+.culture > .contents > article > .card2 > .album {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.culture > .contents > article > .card2 > .album > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.culture > .contents > article > p {
+  padding: 30px 0;
+  color: #757575;
+}
+
+.culture > .contents > article > h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.culture > .contents > article > .bokji {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.culture > .contents > article > .bokji > ul {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.culture > .contents > article > .bokji > ul > strong {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-bottom: 30px;
+}
+
+.culture > .contents > article > .bokji > ul > li {
+  font-size: 18px;
+  color: #757575;
+  list-style: disc;
+}
+
+.culture > .contents > div {
+  text-align: center;
+}
+
+.culture > .contents > div > a {
+  margin-top: 80px;
+  width: fit-content;
+  border-radius: 10px;
+  color: #ff5160;
+  background-color: #fff2ea;
+  padding: 10px 80px;
+  font-weight: bold;
+}
+
+.culture > .contents > div > a:hover {
+  background-color: #ffe5dc;
+}
+
+@media screen and (max-width: 500px) {
+  .culture > .contents {
+    max-width: 400px;
+    padding: 0;
+  }
+
+  .culture > .contents > article > .card2 > .album > img {
+    height: 240px;
+  }
+
+  .culture > .contents > article > h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .culture > .contents > article > .bokji {
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .culture > .contents > article > .bokji > ul > strong {
+    padding-top: 20px;
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .culture > .contents > article > .bokji > ul > li {
+    width: 300px;
+    font-size: 14px;
+  }
+}

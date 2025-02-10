@@ -1,0 +1,34 @@
+aside {
+  position: fixed;
+  right: 70px;
+  bottom: 70px;
+}
+
+aside > .look {
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #ff5160;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.look:hover {
+  background-color: #db3b57;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  aside {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    width: 100vw;
+    padding: 0 10px;
+  }
+
+  aside > .look {
+    width: 100%;
+  }
+}
