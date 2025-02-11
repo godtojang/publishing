@@ -1,4 +1,123 @@
-header > .top-line {
+header {
+  font-style: normal;
+  font-family: "Noto Sans KR", "Malgun Gothic", "Dotum", sans-serif !important;
+}
+
+header > div > .top-line {
   width: 100%;
+  height: 4px;
   background-color: red;
+}
+
+header > div > .top-main {
+  max-width: 1800px;
+  margin: 0 auto;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div > .top-main > div > span {
+  display: block;
+  font-size: 14px;
+  color: #555555;
+}
+
+header > div > .top-main > div > span > strong {
+  font-size: 16px;
+  color: #c30e2e;
+}
+
+header > div > .top-main > div > .logo {
+  width: 140px;
+  height: 75px;
+  background-image: url("https://www.starfield.co.kr/assets/images/logo-suwon.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header > div > .top-main > div > .logo > a {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 30px;
+  left: 1040px;
+  background-image: url("https://www.starfield.co.kr/assets/images/channel-arrow.svg");
+}
+
+header > div > .top-main > .top-right {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 14px;
+}
+
+header > div > .top-main > .top-right > .language {
+  position: relative;
+  margin-right: 15px;
+}
+
+header > div > .top-main > .top-right > .language::before {
+  content: " ";
+  width: 1px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  right: 30px;
+  background-color: #aeaeae;
+}
+
+header > div > .top-main > .top-right > .language::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url("https://www.starfield.co.kr/assets/images/icon/chevron-down.svg");
+}
+
+header > div > .top-main > .top-right > .search {
+  position: relative;
+}
+
+header > div > .top-main > .top-right > .search::before {
+  content: " ";
+  width: 1px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  right: 30px;
+  background-color: #aeaeae;
+}
+
+header > nav {
+  margin: 30px 0;
+  position: relative;
+  width: 100vw;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 50px;
+  font-weight: 600;
+}
+
+header > nav > ul > li:hover {
+  position: relative;
+  color: #c31432;
+}
+
+header > nav > ul > li::after {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  right: auto;
+  background-image: url("https://www.starfield.co.kr/assets/images/icon/btn_pcTitGnbActive.png");
 }
